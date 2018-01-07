@@ -6,6 +6,10 @@
 
 ## Absract
 
+* 参考链接：
+	1. [“CentOS7 离线安装mysql-5.7.16”](http://blog.csdn.net/zz657114506/article/details/53553845)；
+	2. [安装最新Mysql community server 5.7.10社区版的坑爹经历](http://sharong.iteye.com/blog/2262760);
+
 * 环境介绍：**
 
 ### Installing MySQL on Centos 7 Using RPM Packages from Oracle
@@ -56,14 +60,16 @@
 * Shell脚本自动部署
 > 部署前，先准备好基础环境、相关安装包放置在一个可以访问的共享目录中；
 
-	* 脚本：[auto_install.sh](https://github.com/RQ201027/MySQL-5.7/Scripts/auto_install.sh);
-	* 执行前请先检查是否具有执行权限，如没有先赋予脚本执行权限：
+	**Shell脚本：**./Scripts/auto_install.sh
+	
+	**执行前请先检查是否具有执行权限，如没有先赋予脚本执行权限：**
 	
 	```
 	chmod u+x auto_install.sh
 	```
-	* 执行脚本：
+	**执行脚本：**
 
 	```
 	./auto_install.sh
 	```
+******
