@@ -53,16 +53,17 @@
 	```
 	mysqladmin -u root -p'初始随机密码'  password 'Your password'
 	```
-* Shell脚本自动部署
+* Shell脚本自动安装部署
 > 部署前，先准备好基础环境、相关安装包放置在一个可以访问的共享目录中；
 
-	* 脚本：[auto_install.sh](https://github.com/RQ201027/MySQL-5.7/Scripts/auto_install.sh);
-	* 执行前请先检查是否具有执行权限，如没有先赋予脚本执行权限：
+  * 脚本：[auto_install.sh](https://github.com/RQ201027/MySQL-5.7/Scripts/auto_install.sh);
+  * 执行前请先检查是否具有执行权限，如没有先赋予脚本执行权限：
 	
 	```
 	chmod u+x auto_install.sh
 	```
-	* 执行脚本：
+	
+  * 执行脚本完成安装部署：
 
 	```
 	./auto_install.sh
